@@ -1,5 +1,5 @@
 pipeline {
-      agent { sudo dockerfile true } 
+      agent { dockerfile true } 
       
       stages {
          stage ('commands') {
